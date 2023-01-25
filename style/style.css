@@ -1,0 +1,50 @@
+/* Elements */
+
+.imageSize {
+
+    height: 100%;
+    min-height: 10em;
+    max-height: 10em;
+    object-fit:cover;
+    background-color:#120032;
+  }
+
+  .imageStyle {
+    min-height: 50em;
+    max-height: 50em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .imageSize:hover
+  {
+    background-color:#00FFF6;
+  }
+
+  .backgroundImage
+  {
+    background-color: #120032;
+    border-bottom: #00FFF6 2px solid;
+
+  }
+
+  .gridDecor
+  {
+    padding: 3em;
+    background-position-x: center;
+    background-position-y: top;
+    background-image: url('../images/grid.png');
+    background-size: 105%;
+    background-repeat: no-repeat;
+
+
+  }
+
+.textStyle
+{
+  font-family:'Courier New', Courier, monospace;
+  text-align: justify;
+  color: #F5F5F5;
+  line-height: 30px;
+}
