@@ -38,9 +38,69 @@
 
 }
 
+.logoSize
+{
+  max-height: 3.2em;
+  min-height: 3.2em;
+}
+
 .textStyle {
   font-family: 'Courier New', Courier, monospace;
   text-align: justify;
   color: #F5F5F5;
   line-height: 30px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .imageStyle {
+    padding: 0px;
+    min-height: 28.8em;
+    max-height: 28.8em;
+  }
+
+  .imageSize
+  {
+    max-height: 5em;
+    min-height: 5em;
+  }
+  
+
+ 
+}
+
+
+@media screen and (max-width: 600px) {
+  .imageStyle {
+    padding: 0px;
+    min-height: 20em;
+    max-height: 20em;
+  }
+
+  .imageSize
+  {
+    max-height: 5em;
+    min-height: 5em;
+  }
+  
+
+ 
+}
+
+
+@media screen and (min-width: 1600px) {
+  .imageStyle {
+    padding: 0px;
+    min-height: 47.8em;
+    max-height: 47.8em;
+  }
+
+  .imageSize
+  {
+    max-height: 8em;
+    min-height: 8em;
+  }
+  
+
+ 
 }
