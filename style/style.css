@@ -28,7 +28,7 @@
 }
 
 .gridDecor {
-  padding: 3em;
+  padding-top: 3em;
   background-position-x: center;
   background-position-y: top;
   background-image: url('../images/grid.png');
@@ -52,7 +52,7 @@
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   .imageStyle {
     padding: 0px;
     min-height: 28.8em;
@@ -65,12 +65,17 @@
     min-height: 5em;
   }
   
+  .gridDecor
+  {
+    padding-bottom: 1em;
+ 
 
+  }
  
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .imageStyle {
     padding: 0px;
     min-height: 20em;
@@ -83,28 +88,37 @@
     min-height: 5em;
   }
   
-
+  .gridDecor
+  {
+    padding-bottom: 1em;
  
+  }
+
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 380px) {
   .imageStyle {
     padding: 0px;
-    min-height: 17.5em;
-    max-height: 17.5em;
+    min-height: 15.5em;
+    max-height: 15.5em;
   }
 
   .imageSize
   {
-    max-height: 5em;
-    min-height: 5em;
+    max-height: 4em;
+    min-height: 4em;
+
+  }
+
+  .gridDecor
+  {
+    padding-bottom: 1em;
+ 
   }
   
-
- 
 }
 
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1500px) {
   .imageStyle {
     padding: 0px;
     min-height: 47.8em;
