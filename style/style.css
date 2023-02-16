@@ -9,6 +9,8 @@
   background-color: #120032;
 }
 
+
+
 .imageStyle {
   min-height: 50em;
   max-height: 50em;
@@ -19,6 +21,7 @@
 
 .imageSize:hover {
   background-color: #00FFF6;
+  border: 3px #00FFF6 solid;
 }
 
 .backgroundImage {
@@ -64,6 +67,7 @@
     max-height: 5em;
     min-height: 5em;
   }
+
   
   .gridDecor
   {
