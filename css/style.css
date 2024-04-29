@@ -42,6 +42,9 @@ p{
     font-size: 2em;
     font-weight: 900;
     letter-spacing: 1em;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
 
     -webkit-box-shadow: inset 0px 0px 0.3em 0px var(--glow-color),
         0px 0px 0.5em 0px var(--glow-color);
@@ -53,7 +56,8 @@ p{
 }
 
 .glowing-txt {
-    float: left;
+    text-align: center;
+    text-decoration: none;
     margin-right: -0.8em;
     -webkit-text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3),
         0 0 0.45em var(--glow-color);
@@ -233,6 +237,13 @@ p{
     100% {
         opacity: 1;
     }
+}
+
+.glowing-btn, .glowing-txt, .faulty-letter, a {
+    outline: none;
+    text-decoration: none;
+    box-shadow: none;
+    text-shadow: none;
 }
 
 @media only screen and (max-width: 600px) {

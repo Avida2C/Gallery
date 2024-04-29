@@ -16,15 +16,15 @@
 <body style="background-color:#120032;">
     <div class="container col-5 py-2">
         <div class="row">
-            <div class="col-12 img-view m-0 p-0 text-center" id="gallery">
-                <img class="img-fluid text-center " id="mainImage" src="images\Raster_1.jpg" alt="Main Image" />
+            <div class="col-12 img-view text-center" id="gallery">
+                <img class="img-fluid" id="mainImage" src="images\Raster_1.jpg" alt="Main Image" />
             </div>
             <div class="row">
-                <div class="col my-1">
+                <div class="col-11 d-flex justify-content-end py-2">
                     <img class="img-fluid w-25" src="images/title.png" class="gallery-logo" alt="80s Gallery logo">
                 </div>
             </div>
-            <div class="col-12 text-center m-0 p-0">
+            <div class="col-10 text-center m-auto">
                 <img class="img-thumbnail" src="images\Raster_1.jpg" alt=""
                     onclick="updateGallery('images/Raster_1.jpg')">
                 <img class="img-thumbnail" src="images\Raster_2.jpg" alt=""
@@ -51,12 +51,19 @@
                     onclick="updateGallery('images/Vector_6.png')">
             </div>
         </div>
-        <a href="gallery-evaluation.html"><button class='glowing-btn'><span class='glowing-txt'>EVA<span
-                        class='faulty-letter'>LUA</span>TION</span></button></a>
+        <div class="container col-10">
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <a href="gallery-evaluation.html" style="width: 100%;">
+                        <button class='glowing-btn'>
+                            <span class='glowing-txt'>EVA<span class='faulty-letter'>LUA</span>TION</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>          
     </div>
-
     <footer>
-
     </footer>
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
